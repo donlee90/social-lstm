@@ -85,7 +85,7 @@ class TrajectoryDataset(data.Dataset):
 
         if (self.to_tensor):
             source = torch.Tensor(source)
-            target = torch.Tensor(source)
+            target = torch.Tensor(target)
             source_mask = torch.Tensor(source_mask)
             target_mask = torch.Tensor(target_mask)
 
